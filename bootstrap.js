@@ -70,6 +70,18 @@
 /******/ 					"__wbindgen_string_new": function(p0i32,p1i32) {
 /******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbindgen_string_new"](p0i32,p1i32);
 /******/ 					},
+/******/ 					"__wbindgen_json_parse": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbindgen_json_parse"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__wbg_new_59cb74e423758ede": function() {
+/******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbg_new_59cb74e423758ede"]();
+/******/ 					},
+/******/ 					"__wbg_stack_558ba5917b466edd": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbg_stack_558ba5917b466edd"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__wbg_error_4bb6c2a97407129a": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbg_error_4bb6c2a97407129a"](p0i32,p1i32);
+/******/ 					},
 /******/ 					"__wbg_getRandomValues_98117e9a7e993920": function(p0i32,p1i32) {
 /******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbg_getRandomValues_98117e9a7e993920"](p0i32,p1i32);
 /******/ 					},
@@ -175,9 +187,6 @@
 /******/ 					"__wbg_set_82a4e8a85e31ac42": function(p0i32,p1i32,p2i32) {
 /******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbg_set_82a4e8a85e31ac42"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbg_parse_ccb2cd4fe8ead0cb": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbg_parse_ccb2cd4fe8ead0cb"](p0i32,p1i32);
-/******/ 					},
 /******/ 					"__wbg_stringify_d4507a59932eed0c": function(p0i32) {
 /******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbg_stringify_d4507a59932eed0c"](p0i32);
 /******/ 					},
@@ -190,14 +199,14 @@
 /******/ 					"__wbindgen_memory": function() {
 /******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbindgen_memory"]();
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper221": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbindgen_closure_wrapper221"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper256": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbindgen_closure_wrapper256"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper223": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbindgen_closure_wrapper223"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper258": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbindgen_closure_wrapper258"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper225": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbindgen_closure_wrapper225"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper260": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbindgen_closure_wrapper260"](p0i32,p1i32,p2i32);
 /******/ 					}
 /******/ 				}
 /******/ 			};
@@ -300,7 +309,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/rusty_gun_bg.wasm":"a4edf8c2570728bb0f35"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/rusty_gun_bg.wasm":"1939d121595fb7abe45e"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
