@@ -124,6 +124,9 @@
 /******/ 					"__wbg_setonerror_cb55f0521ac0da3a": function(p0i32,p1i32) {
 /******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbg_setonerror_cb55f0521ac0da3a"](p0i32,p1i32);
 /******/ 					},
+/******/ 					"__wbg_setonclose_7094f96283d130e0": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbg_setonclose_7094f96283d130e0"](p0i32,p1i32);
+/******/ 					},
 /******/ 					"__wbg_setonmessage_ca5f75e4a84134ef": function(p0i32,p1i32) {
 /******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbg_setonmessage_ca5f75e4a84134ef"](p0i32,p1i32);
 /******/ 					},
@@ -214,14 +217,14 @@
 /******/ 					"__wbindgen_memory": function() {
 /******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbindgen_memory"]();
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper302": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbindgen_closure_wrapper302"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper310": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbindgen_closure_wrapper310"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper304": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbindgen_closure_wrapper304"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper312": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbindgen_closure_wrapper312"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper306": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbindgen_closure_wrapper306"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper314": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/rusty_gun_bg.js"].exports["__wbindgen_closure_wrapper314"](p0i32,p1i32,p2i32);
 /******/ 					}
 /******/ 				}
 /******/ 			};
@@ -324,7 +327,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/rusty_gun_bg.wasm":"352e1c61eff6eb6453a1"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/rusty_gun_bg.wasm":"0976928a2b09ddec20b9"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
